@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardContent } from './ui/card';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
-import { Heart, Instagram, Copy, CheckCircle, Construction, Leaf, Droplets } from 'lucide-react';
+import { Heart, Instagram, Copy, CheckCircle, Construction, Leaf, Droplets, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';
 

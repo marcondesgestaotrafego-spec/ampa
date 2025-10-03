@@ -10,6 +10,8 @@ const ConstructionPage = () => {
   const [copied, setCopied] = useState(false);
   
   const pixKey = '48988294377';
+  const whatsappNumber = '5548988281977'; // Número com código do país
+  const whatsappMessage = 'Oi! Quero ajudar com doações para a AMPA';
   
   const copyToClipboard = async () => {
     try {

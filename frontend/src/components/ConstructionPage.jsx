@@ -212,9 +212,11 @@ const ConstructionPage = () => {
       <footer className="bg-emerald-800 text-white py-8 mt-12">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center mb-4">
-            <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center mr-2">
-              <Leaf className="w-4 h-4 text-white" />
-            </div>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_ampa-construction/artifacts/qz1thdh7_A%20M%20P%20A%20%281%29.png" 
+              alt="AMPA Logo" 
+              className="w-8 h-8 object-contain mr-2 bg-white/10 rounded p-1"
+            />
             <span className="text-lg font-bold">AMPA</span>
           </div>
           <p className="text-emerald-200 mb-2">Aliança Missionária Pró Amazônia</p>

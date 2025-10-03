@@ -217,15 +217,19 @@ const ConstructionPage = () => {
       </main>
 
       {/* WhatsApp Button */}
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-6 right-6 z-50 group">
+        <div className="absolute bottom-16 right-0 bg-gray-900 text-white text-sm px-3 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+          Fale conosco via WhatsApp
+          <div className="absolute top-full right-4 border-4 border-transparent border-t-gray-900"></div>
+        </div>
         <Button
           onClick={openWhatsApp}
-          className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 animate-pulse"
+          className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110"
           size="lg"
         >
           <MessageCircle className="w-6 h-6" />
         </Button>
-        <div className="absolute -top-2 -left-2 w-4 h-4 bg-red-500 rounded-full animate-ping"></div>
+        <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
       </div>
 
       {/* Footer */}

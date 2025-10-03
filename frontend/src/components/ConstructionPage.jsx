@@ -217,7 +217,7 @@ const ConstructionPage = () => {
       </main>
 
       {/* WhatsApp Button */}
-      <div className="fixed bottom-6 right-6 z-50 group">
+      <div className="fixed bottom-20 right-6 z-50 group">
         <div className="absolute bottom-16 right-0 bg-gray-900 text-white text-sm px-3 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
           Fale conosco via WhatsApp
           <div className="absolute top-full right-4 border-4 border-transparent border-t-gray-900"></div>

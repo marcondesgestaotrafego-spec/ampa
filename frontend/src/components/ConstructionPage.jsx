@@ -30,12 +30,11 @@ const ConstructionPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="relative">
-                <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full flex items-center justify-center">
-                  <Leaf className="w-6 h-6 text-white" />
-                </div>
-                <div className="absolute -top-1 -right-1 w-4 h-4 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
-                </div>
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_ampa-construction/artifacts/qz1thdh7_A%20M%20P%20A%20%281%29.png" 
+                  alt="AMPA Logo" 
+                  className="w-12 h-12 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-xl font-bold text-emerald-800">AMPA</h1>

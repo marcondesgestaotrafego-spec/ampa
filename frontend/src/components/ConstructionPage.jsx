@@ -216,6 +216,18 @@ const ConstructionPage = () => {
         </div>
       </main>
 
+      {/* WhatsApp Button */}
+      <div className="fixed bottom-6 right-6 z-50">
+        <Button
+          onClick={openWhatsApp}
+          className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 animate-pulse"
+          size="lg"
+        >
+          <MessageCircle className="w-6 h-6" />
+        </Button>
+        <div className="absolute -top-2 -left-2 w-4 h-4 bg-red-500 rounded-full animate-ping"></div>
+      </div>
+
       {/* Footer */}
       <footer className="bg-emerald-800 text-white py-8 mt-12">
         <div className="container mx-auto px-4 text-center">
